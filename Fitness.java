@@ -14,9 +14,10 @@ public class Fitness {
     public static void main(String[]args){
        Scanner input =new Scanner(System.in);
 
-       System.out.println("Enter your Steps: ");
+       System.out.println("Enter your steps for today: ");
        int step=input.nextInt();
-       
+
+       System.out.print("Your fitness level: ");
        steps(step);
 
        input.close();
